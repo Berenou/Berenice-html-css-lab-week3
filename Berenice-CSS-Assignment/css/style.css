@@ -17,10 +17,7 @@ body p{
 
 .container{
     width : 950px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin : 5px auto;
     background-color: rgb(236, 222, 188);
 }
 
@@ -96,40 +93,28 @@ h3{
 /*Q11*/
 body .img-centre{
     display: block;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin : 5px auto;
     padding: 2px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*Q12 style the audio*/
 audio, video{
-    display: flex ;
-    margin-bottom : 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block ;
+    margin : 10px auto;
 }
 
 /*Q13 */
 
 table{
     width : 800px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin : 10px auto;
     border:1px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*Q14*/
 table td, table th{
     border:2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top:2px;
-    padding-bottom: 2px;
+    padding : 2px 5px;
     background-color: rgb(225, 198, 181);
 }
 
@@ -149,30 +134,21 @@ dt{
 footer{
     font-size: 80%;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 1px;
-    padding-bottom:1px;
+    padding: 1px 0 ;
 }
 
 /*Q18*/
 iframe{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin : 10px auto;
 }
 
 /*Q19*/
 fieldset{
     width :500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin : 20px auto;
     border : 2px solid rgb(206, 176, 154);
     background-color:rgb(235, 216, 203);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*Q20*/
@@ -180,14 +156,8 @@ legend{
     font-style:italic;
     background-color: rgb(210, 174, 147);
     color:rgb(179, 86, 19);
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left:10px;
-    margin-right: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top:0 ;
-    padding-bottom: 0;
+    margin : 0 10px;
+    padding : 0 5px;
     border-radius: 10px;
 }
 
